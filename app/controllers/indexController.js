@@ -14,7 +14,7 @@ indexController.index = function(req, res){
 indexController.searchHandle = function(req, res){
     var history = new History({term: req.params.searchParam});
     history.save();
-    var baseUrl = "https://www.googleapis.com/customsearch/v1?key=AIzaSyCz1MNa3yWQEV7kJq0g_fMyo8zBvyJmNNw&cx=006126505154793722070:wx7rhei-1cq&fields=items(link,%20snippet,image(contextLink,thumbnailLink))&searchType=image&q=";
+    var baseUrl = "https://www.googleapis.com/customsearch/v1?key=<YOUR API KEY>&cx=<>YOUR SEARCH ENGINE KEY&fields=items(link,%20snippet,image(contextLink,thumbnailLink))&searchType=image&q=";
     var searchParameter = req.params.searchParam;
     if(req.query.offset !== undefined) {
         var finalURL = baseUrl + searchParameter + "?offset=" + req.query.offset;
