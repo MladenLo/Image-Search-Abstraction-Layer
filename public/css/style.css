@@ -1,0 +1,41 @@
+body, html {
+    margin: 0px;
+    padding: 0px;
+}
+html {
+    height: 100%;
+}
+body {
+    background-color: #F0FFFF;
+    font-size:16px;
+    height:100%;
+    position: relative;
+    color: #1C1C1C;
+}
+#container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+h1 {
+    font-size: 2em;
+    margin-top: 0px;
+    color: #FF8000;
+}
+.code {
+    padding-left:5px;
+    color: #c7254e;
+}
+#historyButton {
+    
+    padding: 5px 8px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: box-shadow 0.2s;
+}
+#historyButton:hover {
+    box-shadow: 0px 0px 2px black;
+}

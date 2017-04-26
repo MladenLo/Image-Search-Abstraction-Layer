@@ -1,0 +1,17 @@
+{
+  "name": "image-search-abstraction-layer",
+  "version": "1.0.0",
+  "description": "This is Image Search Abstraction Layer project for Free Code Camp.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MladenLo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "mongoose": "^4.9.6",
+    "pug": "^2.0.0-beta.12",
+    "request": "^2.81.0"
+  }
+}
