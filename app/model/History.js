@@ -1,5 +1,5 @@
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://mladenlo:picajzla1@ds121171.mlab.com:21171/mladenlosandbox');
+mongoose.connect('mongodb://<username>:<password>@ds121171.mlab.com:21171/mladenlosandbox');
 var Schema = mongoose.Schema;
 
 var History = new Schema({
